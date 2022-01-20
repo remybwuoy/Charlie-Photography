@@ -1,0 +1,109 @@
+body{
+  margin: 0;
+  padding: 0;
+  z-index: 999;
+  background-color:#fff;
+  font-family:Baskerville Old Face;
+}
+
+.navbar-brand p{
+  color:#ff6600;
+  font-size:50px;
+  font-family:Broadway;
+  text-shadow:3px 3px 3px #fff;
+}
+
+.navbar{
+  text-align: center;
+ background-color:rgba(0,0,0,0.3);
+   z-index: 9999;
+   top:0;
+  border: 0;
+  color:#fff;
+  width:100%;
+  padding:40px;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 3px;
+  font-family: Montserrat, sans-serif;}
+
+.navbar-toggle{
+  background-color:rgba(0,0,0,0.3);
+  z-index: 9999;
+}
+
+.navbar h2{
+  margin-top:-42px;
+  text-shadow:2px 3px 4px #000;
+}
+
+.navbar-brand, a{
+  color:#fff;
+  z-index: 9999;
+  font-size: 30px;
+  font-family:Lucida Fax;
+  }
+
+.nav navbar-nav, li, a{
+  color:#fff !important;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  z-index: 9999;}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #fff !important;
+    border:2px solid #fff;
+    width:100%;
+    z-index: 9999;
+    border-radius:30px;
+    transition: 1s all ease-out;
+    transform: scale(1.00);
+}
+
+.carousel-inner img {
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(50%); /* make all photos black and white */
+    width: 100%;
+    margin:0;
+    overflow:hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carousel-caption h3 {
+    color: #fff;
+}
+
+<!----About-------
+#sect2 {
+  width:100%;
+  background-color:#fff;
+}
+#sect p{
+  color:#000;
+  font-size: 18px;
+
+}
+#sect2 h2{
+  text-align: center;
+  color:#fff;
+  font-size: 40px;
+  margin-bottom:30px;
+}
+
+#sect2 h2::after{
+  width:150px;
+   height:3px;
+    background-color:#ff6600;
+      display: block;
+     content:" ";
+   margin:0 auto;
+  visibility: visible;
+  margin-bottom:30px;
+ margin-top:30px;
+}
+
+.change{
+
+}
