@@ -38,7 +38,9 @@ h2::after{
   line-height: 1.42857143 !important;
   letter-spacing: 3px;
   border-radius: 0;
-  font-family: sans-serif;}
+  font-family: sans-serif;
+  position: fixed;
+}
 
 .navbar-brand{
   color:#fff;
